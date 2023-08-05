@@ -1,0 +1,23 @@
+# rerencias de node_modules
+
+node_modules/
+
+#referencia de carpeta archivo sass(opcional)
+#src/
+
+# referencia de archivos visualcode
+
+.vscode/
+
+# referentes a sass(temporales se crea al volver a copilar)
+
+.sass-cache/ #_.css.map
+_.sass.map
+\*.scss.map
+
+#Archivos de configuración de Gulp(opcional para compilar)
+#gulpfile.js
+
+# Archivos de dependencias de Node.js
+
+package-lock.json
