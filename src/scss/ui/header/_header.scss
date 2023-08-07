@@ -1,4 +1,5 @@
 @use 'base/mixins' as m;
+@use 'base/variables' as v;
 
 .header {
   padding: 5rem;
@@ -41,5 +42,6 @@
   &__span {
     display: flex;
     align-items: center;
+    color: v.$primario;
   }
 }
