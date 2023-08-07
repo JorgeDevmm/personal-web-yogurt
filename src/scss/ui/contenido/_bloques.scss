@@ -12,19 +12,42 @@
 
 .bloque {
   height: 40rem;
-  background-color: v.$primario;
-  border: 5px solid v.$blanco;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &:nth-child(1) {
+    background-color: v.$primario;
+  }
 
   &:nth-child(2) {
     @include m.bgImage('../img/yogurt-frutado.jpg');
   }
 
   &:nth-child(3) {
+    background-color: v.$secundario;
     @include m.tablet {
       grid-column: 2/3;
     }
   }
   &:nth-child(4) {
-    @include m.bgImage('../img/yogurt-frutado.jpg');
+    @include m.bgImage('../img/nosotros-yogurt.jpg');
+    background-position: top center;
+    object-fit: cover;
+  }
+
+  &__contenido {
+    max-width: 40rem;
+    border-block: 1px solid v.$blanco;
+    color: v.$blanco;
+    padding: 1rem 0;
+  }
+
+  &__heading {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 2.5rem;
   }
 }
