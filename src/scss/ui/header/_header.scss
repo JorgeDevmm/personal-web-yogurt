@@ -17,6 +17,8 @@
 
   &__logo {
     margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
 
     @include m.tablet {
       margin-bottom: 0;
@@ -32,6 +34,7 @@
     margin: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 2.5rem;
 
     @include m.tablet {
@@ -43,5 +46,10 @@
     display: flex;
     align-items: center;
     color: v.$primario;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    font-weight: bold;
   }
 }
