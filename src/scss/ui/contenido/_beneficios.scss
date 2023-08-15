@@ -6,6 +6,7 @@
 
   &__heading {
     @include m.heading;
+    font-size: 2rem;
   }
 
   &__grid {
@@ -15,7 +16,16 @@
   }
 
   &__bloque {
-    text-align: center;
+    &-heading {
+      font-size: 2rem;
+      width: 20rem;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    &-texto {
+      font-size: 1.8rem;
+    }
   }
 
   &__imagen {
