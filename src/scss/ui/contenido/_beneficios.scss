@@ -6,12 +6,11 @@
 
   &__heading {
     @include m.heading;
-    font-size: 2rem;
   }
 
   &__grid {
     @include m.tablet {
-      @include m.grid(3, 2);
+      @include m.grid(3, 3);
     }
   }
 
@@ -25,11 +24,12 @@
 
     &-texto {
       font-size: 1.8rem;
+      padding: 0 2rem;
     }
   }
 
   &__imagen {
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
     width: 10rem;
     height: 8rem;
   }

@@ -32,10 +32,14 @@
           />
         </div>
 
+        <div class="header__menu">
+          <img src="build/img/menu.png" alt="" />
+        </div>
+
         <nav class="navegacion">
-          <a class="navegacion__link" href="#">Nosotros</a>
-          <a class="navegacion__link" href="#">Productos</a>
-          <a class="navegacion__link" href="#">Contacto</a>
+          <a class="navegacion__link" href="#beneficios">Beneficios</a>
+          <a class="navegacion__link" href="#productos">Productos</a>
+          <a class="navegacion__link" href="#contacto">Contacto</a>
         </nav>
       </div>
     </header>
@@ -66,7 +70,7 @@
       </div>
     </section>
 
-    <section class="beneficios contenedor">
+    <section id="beneficios" class="beneficios contenedor">
       <h2 class="beneficios__heading">Beneficios</h2>
       <div class="beneficios__grid">
         <div class="beneficios__bloque">
@@ -75,10 +79,10 @@
             src="build/img/frutas.png"
             alt="frutas"
           />
-          <h3 class="beneficios__bloque-heading">Productos 100% Saludables</h3>
+          <h3 class="beneficios__bloque-heading">Postres económicos</h3>
           <p class="beneficios__bloque-texto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Reprehenderit, aliquid numquam obcaecati dicta
+            No presenta azucares añadidos, saborizantes y colorantes, es común
+            emplearlo para preparar postres, bebidas.
           </p>
         </div>
         <div class="beneficios__bloque">
@@ -87,12 +91,10 @@
             src="build/img/botella-yogurt.png"
             alt="botella-yogurt"
           />
-          <h3 class="beneficios__bloque-heading">
-            Lorem ipsum dolor, sit amet
-          </h3>
+          <h3 class="beneficios__bloque-heading">Yogur Pasteurizado</h3>
           <p class="beneficios__bloque-texto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Reprehenderit, aliquid numquam obcaecati dicta
+            Es un alimento muy saludable para tu organismo. Ofrece muchas
+            vitaminas y minerales esenciales para la salud
           </p>
         </div>
         <div class="beneficios__bloque">
@@ -101,18 +103,15 @@
             src="build/img/weight-loss.svg"
             alt=""
           />
-          <h3 class="beneficios__bloque-heading">
-            Lorem ipsum dolor, sit amet
-          </h3>
+          <h3 class="beneficios__bloque-heading">100% Saludables</h3>
           <p class="beneficios__bloque-texto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Reprehenderit, aliquid numquam obcaecati dicta
+            Ayudan a mejorar la salud intestinal
           </p>
         </div>
       </div>
     </section>
 
-    <main class="productos">
+    <main id="productos" class="productos">
       <h2 class="productos__heading">Productos</h2>
 
       <div class="productos__grid contenedor">
@@ -127,7 +126,7 @@
           <div class="producto__contenido">
             <ul class="producto__lista">
               <li class="producto__caracteristica">Producto pasteurizado</li>
-              <li class="producto__caracteristica">Con pulpa de aguaymanto</li>
+              <li class="producto__caracteristica">Con sabor de arandano</li>
               <li class="producto__caracteristica">Tiempo de vida: 5 días</li>
             </ul>
           </div>
@@ -144,7 +143,7 @@
           <div class="producto__contenido">
             <ul class="producto__lista">
               <li class="producto__caracteristica">Producto pasteurizado</li>
-              <li class="producto__caracteristica">Con pulpa de aguaymanto</li>
+              <li class="producto__caracteristica">Con sabor de vainilla</li>
               <li class="producto__caracteristica">Tiempo de vida: 5 días</li>
             </ul>
           </div>
@@ -161,7 +160,7 @@
           <div class="producto__contenido">
             <ul class="producto__lista">
               <li class="producto__caracteristica">Producto pasteurizado</li>
-              <li class="producto__caracteristica">Con pulpa de aguaymanto</li>
+              <li class="producto__caracteristica">Con sabor de aguaymanto</li>
               <li class="producto__caracteristica">Tiempo de vida: 5 días</li>
             </ul>
           </div>
@@ -178,7 +177,7 @@
           <div class="producto__contenido">
             <ul class="producto__lista">
               <li class="producto__caracteristica">Producto pasteurizado</li>
-              <li class="producto__caracteristica">Con pulpa de aguaymanto</li>
+              <li class="producto__caracteristica">Con pulpa de fresa</li>
               <li class="producto__caracteristica">Tiempo de vida: 5 días</li>
             </ul>
           </div>
@@ -195,7 +194,7 @@
           <div class="producto__contenido">
             <ul class="producto__lista">
               <li class="producto__caracteristica">Producto pasteurizado</li>
-              <li class="producto__caracteristica">Con pulpa de aguaymanto</li>
+              <li class="producto__caracteristica">Con pulpa de guanabana</li>
               <li class="producto__caracteristica">Tiempo de vida: 5 días</li>
             </ul>
           </div>
@@ -211,9 +210,11 @@
 
           <div class="producto__contenido">
             <ul class="producto__lista">
-              <li class="producto__caracteristica">Producto pasteurizado</li>
-              <li class="producto__caracteristica">Con pulpa de aguaymanto</li>
-              <li class="producto__caracteristica">Tiempo de vida: 5 días</li>
+              <li class="producto__caracteristica">Bajo en Sal</li>
+              <li class="producto__caracteristica">Textura Suave</li>
+              <li class="producto__caracteristica">
+                Ideal para desayunos, pastas, etc.
+              </li>
             </ul>
           </div>
         </div>
@@ -221,11 +222,11 @@
       </div>
     </main>
 
-    <section class="contacto">
+    <section id="contacto" class="contacto">
       <h2 class="contacto__heading">¿Quieres contactarnos?</h2>
-      <p class="contacto__texto">Contactanos para mas información</p>
+      <p class="contacto__texto">Contáctanos para más información.</p>
       <div class="contacto__enlaces">
-        <a class="contacto__telefono" href="#">
+        <a class="contacto__telefono" href="tel:+51 986384984">
           <img
             class="contacto__img"
             src="build/img/telefono-movil.png"
@@ -241,5 +242,19 @@
         </a>
       </div>
     </section>
+
+    <footer class="footer">
+      <div class="footer__grid contenedor">
+        <nav class="navegacion">
+          <a class="navegacion__link" href="#beneficios">Beneficios</a>
+          <a class="navegacion__link" href="#productos">Productos</a>
+          <a class="navegacion__link" href="#contacto">Contacto</a>
+        </nav>
+
+        <p class="footer__copyright">
+          Jorge Monzón - Todos los derechos reservados
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

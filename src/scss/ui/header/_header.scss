@@ -2,27 +2,22 @@
 @use 'base/variables' as v;
 
 .header {
-  padding: 5rem;
+  padding: 5rem 2rem;
+
+  @include m.tablet {
+    padding: 5rem;
+  }
 
   &__grid {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-
-    @include m.tablet {
-      flex-direction: row;
-      justify-content: space-between;
-    }
+    justify-content: space-between;
   }
 
   &__logo {
-    margin-bottom: 3rem;
     display: flex;
     flex-direction: row;
-
-    @include m.tablet {
-      margin-bottom: 0;
-    }
   }
 
   &__img {
@@ -51,5 +46,12 @@
   &__text {
     font-size: 1.5rem;
     font-weight: bold;
+  }
+  &__menu {
+    width: 4rem;
+
+    @include m.tablet {
+      display: none;
+    }
   }
 }

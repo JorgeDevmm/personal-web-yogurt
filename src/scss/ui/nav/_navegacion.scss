@@ -2,11 +2,12 @@
 @use 'base/mixins' as m;
 
 .navegacion {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: none;
 
   @include m.tablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-direction: row;
     gap: 2rem;
   }
@@ -14,6 +15,7 @@
   &__link {
     font-size: 2rem;
     margin-bottom: 2rem;
+    color: v.$negro;
 
     &:last-of-type {
       margin-bottom: 0;
